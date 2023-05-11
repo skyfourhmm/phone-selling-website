@@ -1,0 +1,141 @@
+:root {
+    --color-primary: #ee4d2c;
+    --color-text-primary: #757579;
+    --color-border: #e8e8e8
+}
+
+.image {
+    width: 560px;
+    height: 560px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content-detail-pro >span {
+    font-size: 20px;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.content-detail-pro >span i {
+    padding-left: 10px;
+}
+
+.content-detail-pro > div span {
+    color: var(--color-text-primary);
+    font-size: 20px;
+}
+
+.content-detail-pro > div {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 45px;
+    color:var(--color-primary);
+    padding-left: 60px;
+    font-weight: 600;
+}
+
+.box-sticker {
+    margin-left: 60px;
+}
+
+.sale-sticker {
+    margin: 0 20px;
+    padding: 3px 20px;
+    background-color: #fcebed;
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.transport > div {
+    margin-left: 80px;
+}
+
+.transport img {
+    height: 20px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.color span {
+    margin-right: 100px;
+}
+
+.color button {
+    outline: none;
+    border: 1px solid var(--color-border);
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.color button:hover {
+    border: 1px solid var(--color-primary);
+}
+
+.control-value {
+    margin-left: 100px;
+}
+
+.control-value button {
+    width: 26px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid var(--color-border);
+    background-color: transparent;
+}
+
+.control-value input {
+    border: 1px solid var(--color-border);
+    width: 30px;
+    text-align: center;
+    width: 26px;
+    height: 30px;
+    transform: translateY(-2px);
+}
+
+.add-cart {
+    padding: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    background-color: #fcebed;
+    margin-right: 30px;
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.buy-now {
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.color .select {
+    border: 1px solid var(--color-primary)
+}
+
+.cart-body li {
+    margin: 10px 0;
+} 
+
+.footer-col li a {
+    width: 100%;
+}

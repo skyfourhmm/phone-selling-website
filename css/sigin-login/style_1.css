@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: linear-gradient(90deg, rgba(174,93,129,1) 0%, rgba(88,198,227,1) 100%);
+    
+}
+.wrapper{
+    width: 350px;
+    padding: 32px 16px;
+    margin: 150px auto;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow:0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    text-align: center;
+}
+h1{
+    font-size:32px;
+    color:#07001f;
+    margin-bottom: 20px;
+}
+form input{
+    width:92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+/* form .text-danger{
+    color: red;
+    font-size: 15px;
+    align-items: left;
+} */
+button{
+    font-size: 16px;
+    margin-top: 22px;
+    padding: 10px 0;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 90%;
+    background: rgb(17, 107, 143);
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background:rgba(17, 107, 143, 0.877);
+}
+button:active{
+    background-color:#4ee5d4;
+}
+input:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+.terms{
+    margin-top:3.2px;
+}
+.terms input{
+    height:16px;
+    width: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 13px;
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+.member{
+    font-size: 14px;
+    margin-top:22px;
+    color: #636363;
+}
+.member a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+.recover{
+    text-align:right;
+    font-size:13px;
+    margin: 4px 22px 0 0;
+}
+.recover a{
+    color: #464647;
+    text-decoration: none;
+}
+
+
+#tbuser,#tbmail,#tbpass, #tbpass-repeat {
+    font-size: 14px;
+    color: red;
+}
+

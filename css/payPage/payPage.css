@@ -1,0 +1,173 @@
+.header-logo {
+    padding: 20px 0;
+}
+
+.header-logo h2 {
+    padding-left: 20px;
+    border-left: 1px solid #fff;
+}
+
+.logoImg {
+    margin-right: 10px;
+}
+
+.content > div {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.Address {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #ee4d2d;
+}
+
+.name,.sdt {
+    font-weight: 700;
+}
+
+.local {
+    margin-left: 20px;
+}
+
+.change {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.productPay span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 550px;
+}
+
+.title >div:not(:first-child) {
+    color: rgb(187, 187, 187);
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.quality {
+    margin-left: auto;
+}
+
+.pricePayAll {
+    margin-left: 150px;
+}
+
+.imaginePay {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.imaginePay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.namePay {
+    width: 40%;
+}
+
+.priceProductPay {
+    margin-left:  48px;
+}
+
+.qualityPay {
+    margin-left: auto;
+}
+
+.priceProductPayAll {
+    margin-left: 175px;
+}
+
+.item {
+    margin: 20px 0;
+}
+
+.headerPay-title {
+    font-size: 20px;
+}
+
+.headerPay {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #e4e6e8;
+}
+
+.headerPay div:nth-child(2) {
+    margin-left: auto;
+}
+
+.headerPay div:nth-child(3) {
+    margin-left: 90px;
+}
+
+.bodyPay {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #e4e6e8;
+}
+
+.bodyPay div {
+    margin-left: 70%;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.bodyPay div:last-child span:last-child {
+    font-size: 30px;
+    color: #ee4d2d;
+}
+
+.btnPay {
+    margin-left: 90%;
+}
+
+.btnPay button {
+    border: none;
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+
+.model {
+    background-color: rgba(153, 153, 153, 0.7);
+    width: 100%;
+    height: 150%;
+    top: 0;
+    display: none;
+}
+
+.inside-model {
+    width: 30%;
+    margin: 0 auto;
+    top: 10%;
+    padding: 10px 20px;
+}
+
+.inside-model div:last-child button {
+    border: none;
+    background-color: #ee4d2d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.inside-model div:last-child button:first-child {
+    margin-left: 45%;
+}
+
+.inside-model .mb-5 input{
+    padding-bottom: 46px;
+    width: 100%;
+}
+
+.footer-col li a {
+    width: 100%;
+}
